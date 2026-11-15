@@ -13,6 +13,6 @@ Posting every second, then third day (alternating 2- and 3-day gaps), at **7:30p
 
 **Each post:** upload the slides in number order as one carousel, paste `caption.txt`, and add a slow, wordless piano track.
 
-**Day 1 of the 30-question series** goes out last (Sun 30 Nov). Days 2–30 will need writing if you want the series to continue.
+**Day 1 of the 30-question series** goes out last (Sat 28 Nov). Days 2–30 will need writing if you want the series to continue.
 
 `ig-posts/schedule.csv` has the same plan in a spreadsheet-friendly format for bulk upload.
