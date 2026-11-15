@@ -1,15 +1,15 @@
 ---
 name: social-scripts
-description: Knowledge base for writing short-form social video scripts (Reels, TikTok, Shorts) and social post openers. Use whenever building out social scripts, video hooks, captions or content calendars for a client. Holds 98 fill-in-the-blank viral hook templates across 10 hook types (Contrarian, Curiosity Gap, Story Lead-In, Signaling, Labeling, Framework, Authority, Stakes, Promise Stack, Mind Reading).
+description: Knowledge base for writing short-form social video scripts (Reels, TikTok, Shorts) and social post openers. Use whenever building out social scripts, video hooks, captions or content calendars for a client. Holds the Powerful Hooks knowledge: 98 fill-in-the-blank viral hook templates across 10 hook types (Contrarian, Curiosity Gap, Story Lead-In, Signaling, Labeling, Framework, Authority, Stakes, Promise Stack, Mind Reading).
 ---
 
 # Social Scripts
 
 Use this skill when writing short-form video scripts or social post openers.
 
-## Knowledge files
+## Knowledge files (Powerful Hooks)
 
-- `references/viral-hook-types.md`: 10 hook types with 98 templates, and when to use each type.
+- `references/powerful-hooks.md`: 10 hook types with 98 templates, and when to use each type.
   Source: Sam Gaudet (@sam.gaudet), "10/10 Viral Hooks" reel.
 
 ## How to use the hooks

@@ -1,4 +1,4 @@
-# 10/10 Viral Hook Types
+# Powerful Hooks — 10/10 Viral Hook Types
 
 Source: Instagram reel by Sam Gaudet (@sam.gaudet), "10/10 Viral Hooks"
 (https://www.instagram.com/reel/DfxLbrVStRL/). Transcribed from the on-screen cards.
