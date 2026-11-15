@@ -12,6 +12,7 @@ In short:
 - Name a specific person, place, or moment. Add a constraint. One sentence, 10–20 words. The answer should be a name or a sentence.
 - Aim for an ache rather than an analysis. Prepare people before a deep question, give warmth after it, show one
   question per screen, and keep the audio wordless.
+- Follow the **owner preferences** at the top of the guide: story, memory, feeling; no "last sentence of a book" frame; no affirmation posts.
 - Check every question against the checklist in section 6 of the guide.
 
 The ranked source bank is [`memory-room/freeyourmind-question-bank.md`](memory-room/freeyourmind-question-bank.md).

@@ -1,5 +1,11 @@
 # Memory Room: How to Ask Deeper Questions
 
+> **Owner preferences (these override the patterns below)**
+> - Memory Room messaging is about **the story, the memory, the feeling**. Every question and post should take someone *into* a memory, not deliver advice or comfort.
+> - Avoid the "if you wrote a book about X, what would the last sentence be?" frame. The owner finds it confusing ("summary" is also flat). Use the **"only one"** constraint instead: *"If you could only keep one memory of X, which would it be?"*
+> - Avoid affirmation and comfort posts ("in case no one has told you this today…"). They don't connect to the memory.
+> - Formats the owner likes: a numbered daily series (*30 questions to ask before it's too late*), birth-month lists, and simple first-memory questions (*"think back to when you were small… which memory do you go to first?"*).
+
 What I learned from studying every post on **@freeyourmiind_** (TikTok, "Free Your Mind", a guided-journal brand). The study covered 784 posts from Oct 2022 to Nov 2026: 601 photo slideshows and 183 videos. I OCR'd every slide and sampled video frame, transcribed the audio of all 191 sounds, and ranked 388 distinct questions by saves and comments.
 
 Why saves and comments: on a question post, a **save** means "I want to come back and answer this privately". A **comment** means someone answered in public. The best question posts got 50,000 to 93,000 comments, and those comments were answers.

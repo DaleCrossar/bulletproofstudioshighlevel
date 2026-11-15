@@ -1,6 +1,6 @@
 # Memory Room: Instagram posts, batch 1
 
-Five carousel posts built on the patterns in [`question-craft.md`](question-craft.md).
+Six carousel posts built on the patterns in [`question-craft.md`](question-craft.md).
 
 **Format for every post**
 - **Size:** 4:5 carousel (1080×1350).
@@ -10,20 +10,19 @@ Five carousel posts built on the patterns in [`question-craft.md`](question-craf
 
 ---
 
-## Post 1: The one-line verdict
-*Shape A. Based on the account's strongest repeat format (86k–105k saves).*
+## Post 1: One memory to keep
+*Owner feedback: the "last sentence of a book" frame didn't make sense, so this uses the "only one" constraint instead.*
 
 | Slide | Text |
 |---|---|
 | 1 | are you brave enough to answer this question? |
 | 2 | *(pause slide: Memory Room photo, no text)* |
-| 3 | if you wrote a book about your grandmother, what would the last sentence be? |
+| 3 | if you could only keep one memory of your grandmother, which one would it be? |
 
 **Caption**
-> one sentence. that's all.
-> tell me in the comments, or keep it for yourself.
-> some people deserve more than a memory. they deserve to be kept. 🤍
-> #memoryroom #deepquestions #grief #grandma #journaling #legacy
+> just one. the first one that came to you.
+> tell us in the comments, or keep it for yourself. 🤍
+> #memoryroom #grandma #memories #deepquestions #family #legacy
 
 ---
 
@@ -89,24 +88,42 @@ Instagram allows up to 20 slides, so 14 fits.
 
 ---
 
-## Post 5: The soft one
-*Warmth after the hard questions. The account's tender letters were its most-saved posts (149k–152k saves).*
+## Post 5: Walk back in
+*A guided memory: each slide takes them one step further into a place, so they feel it rather than read about it. Built around story, memory, feeling.*
 
 | Slide | Text |
 |---|---|
-| 1 | in case no one has told you this today |
-| 2 | *(pause slide)* |
-| 3 | to the one who still has their voicemail saved. who still makes their recipe the way they did. who still reaches for the phone to tell them something, then remembers. |
-| 4 | that isn't you failing to move on. that's love with nowhere else to go. so give it somewhere to go. tell their stories. say their name. keep them here. 🤍 |
+| 1 | close your eyes for a second |
+| 2 | think of the house you grew up in |
+| 3 | you're at the front door. what does it smell like? |
+| 4 | walk into the kitchen. who's in there? |
+| 5 | what are they saying to you? |
+| 6 | *(Memory Room photo)* · some memories are worth keeping. |
 
 **Caption**
-> for anyone missing someone tonight.
-> the memories you're scared of losing are worth keeping. that's what the Memory Room is for.
-> #memoryroom #grief #missingyou #healing #legacy
+> where did it take you?
+> tell us who was in the kitchen. 🤍
+> #memoryroom #childhoodhome #nostalgia #memories #family
+
+---
+
+## Post 6: The first memory
+*From the owner's idea: "if you think back to your childhood, which memory do you come to?"*
+
+| Slide | Text |
+|---|---|
+| 1 | think back to when you were small |
+| 2 | *(pause slide)* |
+| 3 | which memory do you go to first? |
+
+**Caption**
+> don't overthink it. the first one is the one.
+> tell us where it took you. 🤍
+> #memoryroom #childhood #memories #nostalgia #deepquestions
 
 ---
 
 ## Posting notes
-- **Order:** 3 → 1 → 4 → 5 → 2. Lead with the easiest one to answer (one name), and start the series last so it can run daily afterwards.
+- **Order:** 6 → 3 → 1 → 4 → 5 → 2. Lead with the easiest to answer, and start the series last so it can run daily afterwards.
 - **Captions:** write them to invite answers ("one name", "one sentence"). Comments are the signal the algorithm rewards.
 - **Replies:** answer early comments warmly and briefly, e.g. "thank you for sharing them with us 🤍". Don't analyse what people share.
