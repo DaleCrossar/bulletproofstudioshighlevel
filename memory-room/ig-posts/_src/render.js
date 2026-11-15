@@ -1,42 +1,40 @@
-// Renders Memory Room carousel slides (1080x1350 PNG) from posts.json.
-// Usage: node render.js   (run from this folder; needs Playwright + Chromium)
+// Renders The Memory Room carousel slides (1080x1350 PNG) from posts.json, in the brand system
+// taken from the brand's own Canva posts: real paper background + logo (brand/), headline
+// colour #7a4e3a, Fraunces SOFT 700 (match for the Canva headline font), Jost 700 sublines,
+// logo tan #cba98c, CTA pill #37291f.   Usage: node render.js
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
 const OUT = path.resolve(__dirname, '..');
 const posts = JSON.parse(fs.readFileSync(path.join(__dirname, 'posts.json'), 'utf8'));
-const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
-const noise = (op) => `url("data:image/svg+xml;utf8,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 ${op} 0'/></filter><rect width='100%' height='100%' filter='url(#n)'/></svg>`)}")`;
-const linen = (base) => `background-color:${base};background-image:${noise(0.35)},repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 2px,transparent 2px 5px),repeating-linear-gradient(90deg,rgba(0,0,0,.08) 0 2px,transparent 2px 5px);`;
+const b64 = f => 'data:image/png;base64,' + fs.readFileSync(path.join(__dirname, 'brand', f)).toString('base64');
+const PLATE = b64('plate.png'), PAPER = b64('paper.png'), LOGO = b64('logo.png'), LOGOB = b64('logo-brown.png');
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/'/g,'’');
+const bubble = `<svg width="56" height="57" viewBox="0 0 56 57"><path d="M28 4C14.2 4 4 13.3 4 25s10.2 21 24 21c2.6 0 5-.3 7.3-.9L46 52l-2.4-11.2C49.4 37 52 31.4 52 25 52 13.3 41.8 4 28 4z" fill="none" stroke="#7a4e3a" stroke-width="5" stroke-linejoin="round"/></svg>`;
+function size(t){ const n=t.length; return n<40?96:n<70?88:n<95?80:72; }
 function body(s){
-  if (s.t==='card') return `<div class="bg dark"><div class="card"><p class="q">${esc(s.text)}</p></div></div>`;
-  if (s.t==='title') return `<div class="bg dark"><div class="card"><p class="title">${esc(s.text)}</p></div></div>`;
-  if (s.t==='month') return `<div class="bg dark"><div class="card tall"><p class="label">${esc(s.label)}</p><p class="q">${esc(s.text)}</p></div></div>`;
-  const tag = s.t==='end' ? `<p class="endline">${esc(s.text)}</p>` : '';
-  return `<div class="bg light"><div class="book"><div class="b1">the story<br>the memory<br>the feeling</div><div class="b2">MEMORY ROOM</div></div>${tag}</div>`;
+  if (s.t==='q') return `<div class="pg" style="background-image:url(${PLATE})"><div class="mid"><h1 style="font-size:${s.big?150:size(s.text)}px">${esc(s.text)}</h1>${s.comment?`<p class="sub">${bubble}<span>Comment your answer below</span></p>`:''}</div></div>`;
+  if (s.t==='month') return `<div class="pg" style="background-image:url(${PLATE})"><div class="mid"><p class="label">${esc(s.label)}</p><h1 style="font-size:${size(s.text)}px">${esc(s.text)}</h1></div></div>`;
+  if (s.t==='logo') return `<div class="pg" style="background-image:url(${PAPER})"><div class="mid"><img class="biglogo" src="${LOGO}"></div></div>`;
+  return `<div class="pg" style="background-image:url(${PAPER})"><div class="mid end"><img class="endlogo" src="${LOGOB}"><h2>${esc(s.text)}</h2><div class="pill">CAPTURE THEIR STORY</div><p class="small">${esc(s.sub)}</p></div></div>`;
 }
-const css = `
-*{margin:0;box-sizing:border-box}html,body{width:1080px;height:1350px}
-.bg{width:1080px;height:1350px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:70px;font-family:'Inter',sans-serif}
-.dark{${linen('#4b3529')}}
-.light{${linen('#e9e3da')};background-image:${noise(0.25)},radial-gradient(ellipse at 30% 20%,rgba(255,255,255,.7),transparent 60%),radial-gradient(ellipse at 80% 90%,rgba(0,0,0,.10),transparent 55%)}
-.card{width:800px;min-height:560px;background:#fbf9f5;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:90px 80px;transform:rotate(-.35deg);box-shadow:0 2px 3px rgba(0,0,0,.25),0 20px 40px rgba(0,0,0,.25)}
-.card.tall{min-height:640px;gap:44px}
-.q{text-wrap:balance;font-size:52px;line-height:1.32;font-weight:500;color:#2a2622;text-align:center;letter-spacing:-.005em}
-.title{text-wrap:balance;font-size:64px;line-height:1.2;font-weight:600;color:#2a2622;text-align:center;letter-spacing:-.01em}
-.label{font-size:30px;letter-spacing:.32em;text-transform:uppercase;color:#8a6a55;font-weight:500}
-.book{width:600px;height:840px;background:linear-gradient(135deg,#5a3d2e,#3f2a1f);border-radius:6px 10px 10px 6px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:290px 40px 90px;transform:rotate(-4deg);box-shadow:inset 14px 0 18px -10px rgba(0,0,0,.6),0 30px 60px rgba(0,0,0,.35),0 4px 8px rgba(0,0,0,.3)}
-.b1{color:#efe6dc;font-family:'Jost',sans-serif;font-weight:300;font-size:34px;letter-spacing:.14em;text-align:center;line-height:1.5;text-transform:uppercase}
-.b2{color:#efe6dc;font-family:'Jost',sans-serif;font-weight:300;font-size:40px;letter-spacing:.2em}
-.endline{text-wrap:balance;font-size:44px;font-weight:500;color:#3f2a1f;text-align:center;max-width:820px}
-.light:has(.endline) .book{width:480px;height:672px;padding:220px 30px 70px}
-.light:has(.endline) .b1{font-size:27px}.light:has(.endline) .b2{font-size:32px}`;
+const css = `*{margin:0;box-sizing:border-box}html,body{width:1080px;height:1350px}
+.pg{width:1080px;height:1350px;background-size:cover;position:relative}
+.mid{position:absolute;left:52px;right:52px;top:30px;bottom:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:56px}
+h1{font-family:'Fraunces';font-variation-settings:'SOFT' 100,'WONK' 0;font-weight:700;color:#7a4e3a;line-height:.95;text-align:center;text-wrap:balance}
+.sub{display:flex;align-items:center;gap:14px;font-family:'Jost';font-weight:700;font-size:45px;color:#7a4e3a}
+.label{font-family:'Jost';font-weight:700;font-size:40px;letter-spacing:.28em;text-transform:uppercase;color:#cba98c;margin-bottom:-14px}
+.biglogo{width:620px}
+.end{bottom:0;gap:0}.endlogo{width:330px;margin-bottom:90px}
+h2{font-family:'Fraunces';font-variation-settings:'SOFT' 100,'WONK' 0;font-weight:700;color:#7a4e3a;font-size:76px;line-height:1;text-align:center;text-wrap:balance;max-width:900px;margin-bottom:80px}
+.pill{background:#37291f;color:#fff;font-family:'Jost';font-weight:500;font-size:36px;letter-spacing:.04em;padding:30px 64px;border-radius:999px;margin-bottom:44px}
+.small{text-wrap:balance;font-family:'Jost';font-weight:500;font-size:31px;color:#5a3d31;text-align:center;max-width:900px}`;
 (async()=>{
   const b = await chromium.launch(); const pg = await b.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1});
   for (const p of posts){
     const d = path.join(OUT,p.dir); fs.mkdirSync(d,{recursive:true});
     for (const f of fs.readdirSync(d)) if (f.endsWith('.png')) fs.unlinkSync(path.join(d,f));
     for (let i=0;i<p.slides.length;i++){
-      await pg.setContent(`<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jost:wght@300&display=block" rel="stylesheet"><style>${css}</style></head><body>${body(p.slides[i])}</body></html>`,{waitUntil:'networkidle'});
+      await pg.setContent(`<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,700,100,0&family=Jost:wght@500;700&display=block" rel="stylesheet"><style>${css}</style></head><body>${body(p.slides[i])}</body></html>`,{waitUntil:'networkidle'});
       await pg.evaluate(()=>document.fonts.ready);
       await pg.screenshot({path:path.join(d,`${String(i+1).padStart(2,'0')}.png`)});
     }
