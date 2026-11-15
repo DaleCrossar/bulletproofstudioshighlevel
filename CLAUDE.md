@@ -16,3 +16,7 @@ In short:
 - Check every question against the checklist in section 6 of the guide.
 
 The ranked source bank is [`memory-room/freeyourmind-question-bank.md`](memory-room/freeyourmind-question-bank.md).
+
+## Memory Room social design
+- Visual source of truth: the new website imagery in Canva ("Memory Room Website Copy") and the "The Memory Room" brand kit. Plain text-card designs were rejected as too basic.
+- Current carousel look: photo-led slides (website session photos, warm dark fade, cream Fraunces headline, tan Jost kicker), brand-paper question slides, progress dashes, and a "Capture their story" end slide. Renderer: `memory-room/ig-posts/_src/render.js`.
