@@ -2,6 +2,87 @@
 
 Running notes on reels we've studied and what we take from them for the Airdrie reels. Newest first. For Dale and David.
 
+## Seen in more than one reel
+
+Patterns that have now shown up in two or more of the reels below. These are the safest ones to build on.
+
+1. **One drawn figure moving through time.** PrimeFit ages a figure from 30 to 80. Wallace walks a figure along a timeline from the last period to five years after. Neither uses a presenter or stock footage.
+2. **Dark background, one or two accent colours.** Colour is only used for the thing being talked about.
+3. **The comparison group is always on screen.** Light exercise next to heavy lifting, men next to women. Never a result on its own.
+4. **The LIFTMOR trial.** Both reels use it as the proof that lifting works. Our Reel 06 is on the right study.
+5. **The caption carries the full argument and the sources.**
+
+## 16 November 2026: Dr William Wallace, "Menopause changed 52 of 90 medical tests at once"
+
+Link: https://www.instagram.com/reel/DfxlEpvhlus/
+
+Account: @dr.williamwallace (a scientist who posts research summaries). Posted 15 November 2026. 47 seconds. 4,959 likes and 93 comments one day in, about nine times the PrimeFit reel posted the same day. Views and follower counts weren't available for either, so that gap may be audience size and not format.
+
+### What it is
+
+A silent data story. No voice and no face. Music only, and every word is read off the screen. Nine findings in 47 seconds.
+
+### How it's built
+
+The screen has four fixed layers that never move:
+
+| Layer | What it holds | Does it change? |
+| :-- | :-- | :-- |
+| Headline | "Menopause changed 52 of 90 medical tests at once." White serif, last two words in red. | No. It stays for the whole reel. |
+| Red box | One sentence, the finding for this beat. | Every 4 to 6 seconds. |
+| Stage | A pink figure (her) and a blue figure (him) walking along a line. Markers pass underneath: last period, 1 year after, 2 years after, up to 5 years after. | Moves all the time, never cuts. |
+| Data panel | One small chart or counter for this beat. | Every beat. |
+| Source line | Study, journal, year and number of people for this beat. | Every beat. |
+
+The beats:
+
+| Time | Red box says | What the picture does |
+| :-- | :-- | :-- |
+| 0 to 4s | 300 million lab results, lined up by each woman's last period, not her age. | Both figures walk towards a dotted line marked "last period". |
+| 4 to 8s | 52 of 90 tests jumped at that moment. Men the same age showed no jump. | The floor drops under her. His line stays level. A counter runs 0 to 52 for her and stays at 0 for him. |
+| 8 to 13s | Bone density fell at every site. LDL, liver enzymes and sodium rose. Blood sugar didn't jump. | Labels flash over the chart one at a time. |
+| 13 to 19s | Of 14 body systems, 5 aged faster in women, only frailty in men. | Dots sort into two lists. |
+| 19 to 25s | Insulin resistance climbed 4.3% a year for the 4 years around the last period, about 1% before and after. | A gauge climbs from 1.2% to 4.3% and falls back as she walks. |
+| 25 to 30s | Fat around the organs grew about 6% a year. Weight gain didn't speed up. | A ring appears round her waist. |
+| 30 to 34s | In 17 trials, hormone therapy lowered insulin resistance. Ten years after stopping, the difference was gone. | Two bars, therapy and placebo, then the gap closes. |
+| 34 to 40s | Hard training 3 times a week cut 1.5 kg of belly fat and added muscle. | She picks up a dumbbell. Counters run to −1.5 kg and +0.4 kg. "Easy exercise +0.1" sits underneath in small type. |
+| 40 to 47s | Lift heavy, and keep lifting: 5 sets of 5 at 85% of max, twice a week, added 2.9% to spine bone in 8 months. | The line she walks on starts to rise. Counter runs to +2.9%. "Light exercise −1.2%" underneath. |
+
+It ends there. No ask, no keyword, no end card.
+
+### What makes the style work
+
+1. **The headline is the hook and it never leaves.** Someone who joins at second 20 still knows what the reel is about. The headline is one specific finding with a number in it, not a question.
+2. **The picture is the finding.** The floor drops under her at the last period and his doesn't. You understand "a step, not a slide" before reading a word.
+3. **One sentence at a time.** The red box holds one finding for about five seconds. Everything else on screen supports that one sentence.
+4. **The source is on screen for every claim.** Study, journal, year and how many people, changing with each beat.
+5. **Every result has its comparison.** Him beside her. Easy exercise under hard training. Light exercise under heavy lifting.
+6. **Bad news first, then what works.** Two thirds is what changes. The last third is what pushed back in trials, and the picture turns with it: she picks up a weight and the line rises.
+7. **It works with the sound off.** Nothing depends on a voice.
+8. **The caption says how to read it.** A short section states which findings only watched people and which were proper trials, and tells people to build up to heavy loads with a coach.
+
+### What we take for Forever Strong
+
+1. **Make a silent cut of each Evidence reel.** Pinned headline, one sentence per beat, the graphics we already have, the source line at the bottom. It needs no filming, so it's a second post from the same research and doesn't wait on Dale or David being free.
+2. **Pin the hook on screen for the whole reel.** On the talking head reels, keep the headline text ("TOO LATE TO START?") up past line 1, small, at the top.
+3. **Put the source on screen every time a number appears.** We show the journal once, on line 2. Carry "Fiatarone 1994, NEJM, 100 residents" along the bottom through every GRAPHIC shot.
+4. **Always show the other group.** Reels 02 and 06 already do. In reel 05, show the younger group's loss beside the older group's, in the same frame.
+5. **Let the picture be the finding.** For reel 05, a figure lying down while the leg muscle drains. For reel 04, 104 coins dropping into a pot. Ask of each graphic: would it make sense with no text?
+6. **Add a "how to read this" block to every caption.** Two lines: was it a trial or a follow-up study, and how many people. It's our "being straight about the research" rule, written for the caption.
+7. **A menopause reel is worth scripting.** It is squarely our audience and the solution half of this reel is our service: coached, heavy, twice a week. Before any script, read the papers ourselves. We have only seen his summary of them. The claim that gains were lost within 3 months of stopping is the one to check first.
+
+### What we don't copy
+
+1. **Nine findings in 47 seconds.** It needs pausing to take in. Our viewers are over 50 and many are on a phone without their glasses. Three or four findings, bigger type.
+2. **The small text.** His source line and data labels are tiny. Ours need to be readable at arm's length.
+3. **The jargon.** LDL, apoB, visceral fat, insulin resistance. We say "the fat round your organs" and "how well your body handles sugar".
+4. **No ask.** He is building authority and has nothing to sell in the reel. We still need the comment keyword or the waiting list, on an end card if not in the voice.
+5. **No people.** As with PrimeFit, the silent cut is an extra format. The face-led reels stay the main ones.
+
+### Not assessed
+
+Which track the music is. Retention and reach, because the view count wasn't available.
+
 ## 16 November 2026: PrimeFit, "After the age of 30" (bone density)
 
 Link: https://www.instagram.com/reel/Dfx05mmxSNk/
