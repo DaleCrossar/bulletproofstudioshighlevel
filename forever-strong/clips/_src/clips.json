@@ -1,0 +1,179 @@
+{
+ "source": "Episode 1 David Founder story.mp4",
+ "crop_center": 0.48,
+ "clips": [
+  {
+   "id": "clip-1-why-i-came-back",
+   "words": "med:c1",
+   "hook": [
+    "WHAT MY MUM'S PAIN",
+    "TAUGHT ME ABOUT",
+    "LIFTING WEIGHTS"
+   ],
+   "hook_hi": [
+    "MY MUM'S PAIN"
+   ],
+   "keep": [
+    [
+     443.0,
+     444.3
+    ],
+    [
+     445.5,
+     451.6
+    ],
+    [
+     452.0,
+     456.6
+    ],
+    [
+     459.4,
+     466.2
+    ],
+    [
+     467.0,
+     474.9
+    ],
+    [
+     476.0,
+     485.5
+    ],
+    [
+     490.9,
+     496.9
+    ],
+    [
+     497.6,
+     503.6
+    ]
+   ]
+  },
+  {
+   "id": "clip-2-not-a-gym-person",
+   "words": "med:c2",
+   "hook": [
+    "NOT A",
+    "“GYM PERSON”?",
+    "WATCH THIS."
+   ],
+   "hook_hi": [
+    "“GYM PERSON”?"
+   ],
+   "keep": [
+    [
+     674.5,
+     678.4
+    ],
+    [
+     680.6,
+     681.8
+    ],
+    [
+     684.4,
+     686.1
+    ],
+    [
+     698.6,
+     704.4
+    ],
+    [
+     708.6,
+     718.4
+    ],
+    [
+     721.4,
+     725.5
+    ],
+    [
+     726.3,
+     734.1
+    ],
+    [
+     734.7,
+     746.5
+    ],
+    [
+     747.9,
+     755.1
+    ]
+   ]
+  },
+  {
+   "id": "clip-3-the-card",
+   "words": "small:c3",
+   "hook": [
+    "THE CARD THAT",
+    "NEARLY MADE",
+    "ME CRY"
+   ],
+   "hook_hi": [
+    "NEARLY MADE",
+    "ME CRY"
+   ],
+   "keep": [
+    [
+     1055.8,
+     1058.2
+    ],
+    [
+     1061.4,
+     1062.9
+    ],
+    [
+     1065.6,
+     1067.8
+    ],
+    [
+     1068.1,
+     1074.1
+    ],
+    [
+     1075.1,
+     1077.5
+    ],
+    [
+     1078.4,
+     1083.6
+    ],
+    [
+     1084.5,
+     1087.4
+    ],
+    [
+     1088.4,
+     1088.79
+    ],
+    [
+     1089.5,
+     1090.3
+    ],
+    [
+     1092.5,
+     1094.4
+    ],
+    [
+     1094.8,
+     1101.2
+    ],
+    [
+     1102.6,
+     1106.9
+    ]
+   ],
+   "drop_words": [
+    "fucking"
+   ],
+   "fix_at": {
+    "1073.2": "learned",
+    "1077.0": "she didn't",
+    "1077.2": "want it.",
+    "1099.7": "of"
+   }
+  }
+ ],
+ "cta": {
+  "pill": "JOIN THE WAITLIST",
+  "line": "Free trial sessions from December",
+  "small": "Link in bio"
+ }
+}
