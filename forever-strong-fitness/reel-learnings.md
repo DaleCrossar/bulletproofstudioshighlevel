@@ -24,7 +24,7 @@ A silent data story. No voice and no face. Music only, and every word is read of
 
 ### How it's built
 
-The screen has four fixed layers that never move:
+The screen has five layers, each in a fixed place:
 
 | Layer | What it holds | Does it change? |
 | :-- | :-- | :-- |
