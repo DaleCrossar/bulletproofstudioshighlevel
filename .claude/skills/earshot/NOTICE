@@ -1,0 +1,11 @@
+earshot: ears for coding agents
+Copyright (c) Leon Lin. MIT licence (see LICENSE).
+
+Source: https://github.com/Leonxlnx/earshot (skills/earshot)
+Copied at commit 4ac3d2ac2b151e1c23376f9ce7f3047a17050013 (release 0.4.1), unmodified.
+
+This folder holds the skill only (how an agent uses earshot). The earshot
+program itself is installed separately:
+
+  uv tool install "earshot[mcp] @ git+https://github.com/Leonxlnx/earshot"
+  earshot doctor --fetch        # downloads its two models, about 1.1 GB

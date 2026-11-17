@@ -1,0 +1,9 @@
+real-sfx: real sounds for a motion video
+Made by Alexander Korbanov at Clipwing (https://clipwing.pro)
+
+Source: https://github.com/Clipwing/skills (skills/real-sfx)
+Copied at commit edbefcbc3474869e6cc1e8a7ca583b0efd0dab7e, unmodified.
+
+Licences, as stated in the skill's README: scripts MIT. The bundled uisfx
+package (vendor/node_modules/uisfx): code MIT, sounds CC0; see its LICENSE
+and LICENSE-AUDIO files.
